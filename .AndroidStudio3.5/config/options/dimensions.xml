@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080@144dpi" x="971" y="482" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="632" y="143" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080@144dpi" x="500" y="246" />
+    <location key="SettingsEditor.0.0.1920.1080@144dpi" x="191" y="0" />
+    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="328" y="66" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080@120dpi" x="968" y="461" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@144dpi" width="1853" height="176" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@144dpi" width="1853" height="176" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@144dpi" width="1853" height="176" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@144dpi" width="1853" height="176" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="1544" height="147" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="1544" height="147" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="1544" height="147" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="1544" height="147" />
+  </component>
+</application>
