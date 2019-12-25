@@ -1704,3 +1704,804 @@ Elapsed time on auto-detect: 2 ms
 2019-12-24 23:33:05,081 [entQueue-0]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-12-24 23:33:05,118 [wn tracker]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-12-24 23:33:05,132 [wn tracker]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-25 00:08:35,496 [ain Thread]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-12-25 00:08:35,592 [e-1483-b03]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-191.8026.42.35.6010548, 15 Nov 2019 16:02) 
+2019-12-25 00:08:35,592 [e-1483-b03]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-12-25 00:08:35,592 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b03 (JetBrains s.r.o) 
+2019-12-25 00:08:35,592 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b03 (OpenJDK 64-Bit Server VM) 
+2019-12-25 00:08:35,594 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djna.nosys=true -Djna.boot.library.path= -da -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio3.5 -XX:ErrorFile=C:\Users\Administrator.DESKTOP-72GMO0L\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Administrator.DESKTOP-72GMO0L\java_error_in_studio.hprof 
+2019-12-25 00:08:35,594 [e-1483-b03]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-12-25 00:08:35,594 [e-1483-b03]   INFO -        #com.intellij.idea.Main - charsets: JNU=MS949 file=MS949 
+2019-12-25 00:08:35,638 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 43 ms 
+2019-12-25 00:08:35,645 [e-1483-b03]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-12-25 00:08:36,656 [e-1483-b03]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-12-25 00:08:36,770 [entQueue-0]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4a6a80bc[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@48fe1268 
+2019-12-25 00:08:36,856 [entQueue-0]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (JRE-managed HiDPI) 
+2019-12-25 00:08:37,431 [ger Loader]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2019-12-25 00:08:37,434 [ger Loader]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-detection-groovy.xml 
+2019-12-25 00:08:37,626 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 409 ms 
+2019-12-25 00:08:37,769 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - 38 plugins initialized in 552 ms 
+2019-12-25 00:08:37,769 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.3.5.3), App Links Assistant (0.1), Copyright (191.8026.42.35.6010548), Coverage (191.8026.42.35.6010548), EditorConfig (191.8026.42.35.6010548), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git Integration (191.8026.42.35.6010548), GitHub (191.8026.42.35.6010548), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (191.8026.42.35.6010548), Groovy (191.8026.42.35.6010548), I18n for Java (191.8026.42.35.6010548), IDEA CORE (191.8026.42.35.6010548), IntelliJ Configuration Script (191.8026.42.35.6010548), IntelliLang (191.8026.42.35.6010548), JUnit (191.8026.42.35.6010548), Java Bytecode Decompiler (191.8026.42.35.6010548), Java Stream Debugger (191.8026.42.35.6010548), Kotlin (1.3.50-release-Studio3.5-1), Mercurial Integration (191.8026.42.35.6010548), Properties Support (191.8026.42.35.6010548), Settings Repository (191.8026.42.35.6010548), Smali Support (191.8026.42.35.6010548), Subversion (191.8026.42.35.6010548), Task Management (191.8026.42.35.6010548), Terminal (191.8026.42.35.6010548), Test Recorder (1.0), TestNG-J (191.8026.42.35.6010548), YAML (191.8026.42.35.6010548) 
+2019-12-25 00:08:39,366 [entQueue-0]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2019-12-25 00:08:39,481 [le Watcher]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2019-12-25 00:08:39,520 [le Watcher]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-12-25 00:08:41,194 [e-1483-b03]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-12-25 00:08:41,210 [e-1483-b03]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-12-25 00:08:41,237 [d thread 4]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-12-25 00:08:41,307 [e-1483-b03]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-12-25 00:08:41,539 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:139, number of extensions:43 
+2019-12-25 00:08:41,555 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:15 
+2019-12-25 00:08:41,598 [e-1483-b03]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:31, number of extensions:50 
+2019-12-25 00:08:41,599 [e-1483-b03]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-12-25 00:08:42,142 [e-1483-b03]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 362 ms 
+2019-12-25 00:08:42,430 [oader Pool]   INFO - j.ide.ui.OptionsTopHitProvider - 1494 ms spent to cache options in application 
+2019-12-25 00:08:42,430 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 1494 ms 
+2019-12-25 00:08:42,672 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-25 00:08:42,674 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=22, fontScale=1.0; restored: fontSize=22, fontScale=1.0 
+2019-12-25 00:08:43,180 [cture Pool]   INFO - pl$FileIndexDataInitialization - Initialization done:1624 
+2019-12-25 00:08:43,657 [cture Pool]   INFO - exImpl$StubIndexInitialization - Initialization done:475 
+2019-12-25 00:08:44,202 [e-1483-b03]   INFO - plication.impl.ApplicationImpl - 88 application components initialized in 6995ms 
+2019-12-25 00:08:44,219 [e-1483-b03]   INFO - .intellij.idea.IdeaApplication - App initialization took 10922 ms 
+2019-12-25 00:08:44,942 [e-1483-b03]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-12-25 00:08:45,648 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 672 ms spent on EDT to cache options in application 
+2019-12-25 00:08:45,650 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2019-12-25 00:08:45,650 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2019-12-25 00:08:45,651 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2019-12-25 00:08:45,651 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2019-12-25 00:08:45,653 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2019-12-25 00:08:45,653 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2019-12-25 00:08:45,653 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2019-12-25 00:08:45,742 [e-1483-b03]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2019-12-25 00:08:46,054 [d thread 6]   INFO - dea.updater.SdkComponentSource - File C:\Users\Administrator.DESKTOP-72GMO0L\.android\repositories.cfg could not be loaded. 
+2019-12-25 00:08:46,057 [d thread 6]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2019-12-25 00:08:46,308 [2-thread-1]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-12-25 00:08:46,309 [2-thread-3]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-12-25 00:08:46,311 [2-thread-7]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-12-25 00:08:46,308 [2-thread-2]   INFO - dea.updater.SdkComponentSource - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2019-12-25 00:08:46,308 [2-thread-5]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-12-25 00:08:46,311 [2-thread-9]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-12-25 00:08:46,310 [2-thread-8]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-12-25 00:08:46,309 [2-thread-4]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2019-12-25 00:08:46,312 [2-thread-6]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-12-25 00:08:46,312 [-thread-10]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-12-25 00:08:46,320 [-thread-11]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-12-25 00:08:46,321 [-thread-12]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-12-25 00:08:46,763 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 4331 ms 
+2019-12-25 00:08:46,865 [oader Pool]   INFO - dk.ClangTidyInspectionProvider - Clang-tidy inspection is enabled.} 
+2019-12-25 00:08:49,103 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 2339 ms 
+2019-12-25 00:08:49,694 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 591 ms 
+2019-12-25 00:08:49,701 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 6 ms 
+2019-12-25 00:11:13,608 [rImpl Pool]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.util.download.impl.FileDownloaderImpl$ConcurrentTasksProgressManager.updateFraction(FileDownloaderImpl.java:339) 
+2019-12-25 00:11:24,170 [e-1483-b03]   INFO - ellij.project.impl.ProjectImpl - 166 project components initialized in 823 ms 
+2019-12-25 00:11:24,171 [e-1483-b03]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-12-25 00:11:24,258 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:11:24,282 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:11:24,284 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@5b7b896d) 
+2019-12-25 00:11:24,285 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: TEMPLATE_RENDERING_STARTED 
+2019-12-25 00:11:24,286 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:11:24,316 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:11:25,114 [e-1483-b03]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-12-25 00:11:25,190 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/build.gradle 
+2019-12-25 00:11:25,225 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/settings.gradle 
+2019-12-25 00:11:25,247 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/gradle.properties 
+2019-12-25 00:11:25,308 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/local.properties 
+2019-12-25 00:11:25,372 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/settings.gradle 
+2019-12-25 00:11:25,391 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/app/build.gradle 
+2019-12-25 00:11:25,838 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 00:11:25,849 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 00:11:25,850 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 00:11:25,853 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/app/build.gradle 
+2019-12-25 00:11:26,026 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 00:11:26,028 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/app/build.gradle 
+2019-12-25 00:11:26,036 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: TEMPLATE_RENDERING_FINISHED 
+2019-12-25 00:11:26,036 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:11:26,475 [e-1483-b03]   INFO - artup.AndroidStudioInitializer - Failed to disable 'org.intellij.plugins.intelliLang.inject.groovy.GrConcatenationInjector' 
+2019-12-25 00:11:26,586 [ thread 10]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-12-25 00:11:28,172 [d thread 6]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 17ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:11:28,274 [d thread 9]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 13 millis 
+2019-12-25 00:11:28,457 [d thread 9]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 395ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:11:28,828 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1ProjectModuleManager took 51 ms 
+2019-12-25 00:11:28,967 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 00:11:29,241 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/test1/.idea case-sensitivity: expected=false actual=false 
+2019-12-25 00:11:29,296 [ thread 13]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-12-25 00:11:30,028 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'test1'. 
+2019-12-25 00:11:30,037 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 00:11:30,038 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:11:30,325 [e-1483-b03]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7627 ms 
+2019-12-25 00:11:30,357 [ thread 11]   INFO - WhatsNewAssistantBundleCreator - Remote WNA config file not found 
+java.io.FileNotFoundException: https://developer.android.com/studio/releases/assistant/3.5.3.xml
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.downloadConfig(WhatsNewAssistantBundleCreator.java:221)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.updateConfig(WhatsNewAssistantBundleCreator.java:209)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.isNewConfigVersion(WhatsNewAssistantBundleCreator.java:133)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantCheckVersionTask.run(WhatsNewAssistantCheckVersionTask.kt:34)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:731)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:586)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:532)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:86)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:403)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-25 00:11:30,396 [Alarm Pool]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-12-25 00:11:30,566 [ thread 15]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 00:11:30,582 [ thread 15]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:11:30,586 [ thread 15]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-12-25 00:11:30,591 [ thread 15]   INFO - oject.common.GradleInitScripts - init script file sync.ng.kapt contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kapt3-idea.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kotlin-gradle-tooling.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar'])\n  }\n}\nallprojects {\n  apply plugin: KaptModelBuilderPlugin\n}\nclass KaptModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService builder;\n  public KaptModelBuilder() {\n    builder = new org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass KaptModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject KaptModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new KaptModelBuilder())\n  }\n}" 
+2019-12-25 00:11:30,603 [ thread 15]   INFO - oject.common.GradleInitScripts - init script file sync.ng.build.script.classpath contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-impl.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-api-impldep-4.10.3.jar'])\n  }\n}\nallprojects {\n  apply plugin: BuildScriptClasspathModelBuilderPlugin\n}\nclass BuildScriptClasspathModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl builder;\n  public BuildScriptClasspathModelBuilder() {\n    builder = new org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass BuildScriptClasspathModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject BuildScriptClasspathModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new BuildScriptClasspathModelBuilder())\n  }\n}" 
+2019-12-25 00:11:30,675 [unnerw.exe]   INFO -  #git4idea.commands.GitHandler - git version 2.24.0.windows.2 
+2019-12-25 00:11:30,715 [Alarm Pool]   INFO - ea.config.GitExecutableManager - Git version for C:\Program Files\Git\cmd\git.exe : 2.24.0 
+2019-12-25 00:11:31,089 [Alarm Pool]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [VcsRootError{UNREGISTERED_ROOT - C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects}] 
+2019-12-25 00:11:31,278 [Alarm Pool]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects] 
+2019-12-25 00:11:32,074 [d thread 1]   INFO - WindowsPerformanceHintsChecker - Windows Defender status: NONE_EXCLUDED; projectDirExcluded? false 
+2019-12-25 00:11:36,129 [ thread 15]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.java.lib.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.kapt.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.build.script.classpath.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.5.3.0 -Pandroid.injected.build.model.disable.src.download=false 
+2019-12-25 00:12:02,794 [ thread 12]   INFO - e.project.sync.GradleSyncState - Started setup of project 'test1'. 
+2019-12-25 00:12:02,804 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 00:12:03,609 [ thread 12]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 29 Platform' (C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk) to module 'app' 
+2019-12-25 00:12:05,512 [ thread 15]   INFO - e.project.sync.GradleSyncState - Finished source generation of project 'test1'. 
+2019-12-25 00:12:05,897 [d thread 1]   INFO - roid.tools.idea.adb.AdbService - Initializing adb using: C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk\platform-tools\adb.exe 
+2019-12-25 00:12:05,961 [ thread 11]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 00:12:05,975 [ thread 11]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:12:05,981 [ thread 11]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:12:05,988 [ thread 11]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 00:12:05,990 [ thread 11]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 00:12:05,991 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Module: 'app'NewModuleRootManager took 31 ms 
+2019-12-25 00:12:06,845 [ thread 11]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 36 s 817 ms 
+2019-12-25 00:12:06,970 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 00:12:06,970 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:12:07,536 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 00:12:07,543 [d thread 6]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-12-25 00:12:07,622 [ thread 14]   INFO - notification.NotificationGroup - Notification group Resolve C/C++ Configurations is already registered 
+java.lang.Throwable
+	at com.intellij.notification.NotificationGroup.<init>(NotificationGroup.java:65)
+	at com.intellij.notification.NotificationGroup.<init>(NotificationGroup.java:50)
+	at com.intellij.notification.NotificationGroup.<init>(NotificationGroup.java:43)
+	at com.intellij.notification.NotificationGroup.logOnlyGroup(NotificationGroup.java:77)
+	at com.android.tools.ndk.configuration.CxxNotificationKt.<clinit>(CxxNotification.kt:30)
+	at com.android.tools.ndk.configuration.CxxResolveModuleConfigurationsKt.cxxResolveModuleConfigurations(CxxResolveModuleConfigurations.kt:161)
+	at com.android.tools.ndk.GradleWorkspace.updateGradleWorkspace(GradleWorkspace.java:189)
+	at com.android.tools.ndk.GradleWorkspace.access$400(GradleWorkspace.java:60)
+	at com.android.tools.ndk.GradleWorkspace$4.run(GradleWorkspace.java:146)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:731)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:586)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:532)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:86)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:403)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-25 00:12:07,719 [ thread 17]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2019-12-25 00:12:08,004 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 00:12:08,059 [ thread 14]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.497s 
+2019-12-25 00:12:08,135 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 105 ms 
+2019-12-25 00:12:08,147 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-12-25 00:12:08,460 [err reader]   WARN -            #com.android.ddmlib - * daemon not running; starting now at tcp:5037 
+2019-12-25 00:12:08,538 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 00:12:08,689 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 554 ms 
+2019-12-25 00:12:08,704 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 11 ms 
+2019-12-25 00:12:08,738 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 33 ms 
+2019-12-25 00:12:08,749 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 6 ms 
+2019-12-25 00:12:08,749 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-12-25 00:12:08,753 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-12-25 00:12:08,942 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-12-25 00:12:08,946 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 192 ms 
+2019-12-25 00:12:08,989 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-12-25 00:12:09,003 [d thread 6]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 14 ms 
+2019-12-25 00:12:09,134 [d thread 6]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 71ms 
+2019-12-25 00:12:09,459 [d thread 6]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 325ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:12:09,492 [d thread 6]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:12:10,941 [d thread 6]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1449ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:12:10,941 [d thread 6]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 34 files to update 
+2019-12-25 00:12:11,267 [d thread 6]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 326ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:12:11,402 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 129 ms spent to cache options in project 
+2019-12-25 00:12:11,402 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-12-25 00:12:11,402 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - Activity run in 129ms on UI thread 
+2019-12-25 00:12:11,624 [err reader]   WARN -            #com.android.ddmlib - * daemon started successfully 
+2019-12-25 00:12:11,721 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 171 ms spent on EDT to cache options in project 
+2019-12-25 00:12:11,883 [d thread 1]   INFO - roid.tools.idea.adb.AdbService - Successfully connected to adb 
+2019-12-25 00:12:11,965 [ thread 16]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2019-12-25 오전 12:08) 
+2019-12-25 00:12:16,245 [e-1483-b03]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-12-25 00:12:51,502 [e-1483-b03]   INFO - AndroidLogcatToolWindowFactory - Successfully obtained debug bridge 
+2019-12-25 00:13:44,016 [ thread 15]   WARN - dea.sdk.SystemInfoStatsMonitor - CpuInfoFlags.fromExitCode(): unknown flag values '0x80' 
+2019-12-25 00:14:45,810 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1RunManager took 36 ms 
+2019-12-25 00:14:45,854 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 585 ms 
+2019-12-25 00:15:29,209 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 143 ms 
+2019-12-25 00:15:39,177 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 74 ms 
+2019-12-25 00:15:57,173 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-12-25 00:15:57,185 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - use other group instead of unexpected one: project.propCompiler 
+2019-12-25 00:15:57,734 [ thread 31]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2019-12-25 오전 12:08) 
+2019-12-25 00:17:07,549 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 00:17:07,558 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'test1'. 
+2019-12-25 00:17:07,559 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 00:17:07,559 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:17:07,593 [ thread 32]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 00:17:07,597 [ thread 32]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-12-25 00:17:07,602 [ thread 32]   INFO - oject.common.GradleInitScripts - init script file sync.ng.kapt contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kapt3-idea.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kotlin-gradle-tooling.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar'])\n  }\n}\nallprojects {\n  apply plugin: KaptModelBuilderPlugin\n}\nclass KaptModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService builder;\n  public KaptModelBuilder() {\n    builder = new org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass KaptModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject KaptModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new KaptModelBuilder())\n  }\n}" 
+2019-12-25 00:17:07,605 [ thread 32]   INFO - oject.common.GradleInitScripts - init script file sync.ng.build.script.classpath contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-impl.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-api-impldep-4.10.3.jar'])\n  }\n}\nallprojects {\n  apply plugin: BuildScriptClasspathModelBuilderPlugin\n}\nclass BuildScriptClasspathModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl builder;\n  public BuildScriptClasspathModelBuilder() {\n    builder = new org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass BuildScriptClasspathModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject BuildScriptClasspathModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new BuildScriptClasspathModelBuilder())\n  }\n}" 
+2019-12-25 00:17:07,653 [ thread 32]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.java.lib1.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.kapt1.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.build.script.classpath1.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.5.3.0 -Pandroid.injected.build.model.disable.src.download=false 
+2019-12-25 00:17:11,355 [ thread 75]   INFO - e.project.sync.GradleSyncState - Started setup of project 'test1'. 
+2019-12-25 00:17:11,369 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 00:17:11,464 [ thread 75]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 29 Platform' (C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk) to module 'app' 
+2019-12-25 00:17:12,240 [ thread 39]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 00:17:12,242 [ thread 39]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:17:12,243 [ thread 39]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 00:17:12,251 [ thread 39]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 00:17:12,273 [ thread 39]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 00:17:12,327 [ thread 39]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 4 s 769 ms 
+2019-12-25 00:17:12,452 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 00:17:12,452 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1 
+2019-12-25 00:17:12,687 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 00:17:12,696 [ thread 31]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.002s 
+2019-12-25 00:17:12,793 [ thread 36]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:17:13,106 [ thread 32]   INFO - e.project.sync.GradleSyncState - Finished source generation of project 'test1'. 
+2019-12-25 00:17:13,162 [ thread 36]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 368ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 00:19:08,483 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-12-25 00:19:08,489 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - use other group instead of unexpected one: project.propCompiler 
+2019-12-25 00:19:10,041 [ thread 75]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2019-12-25 오전 12:08) 
+2019-12-25 00:19:12,975 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-25 00:19:15,790 [e-1483-b03]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 73 ms 
+2019-12-25 18:47:32,386 [J pool 2/3]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 18:47:32,389 [J pool 1/3]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 18:47:32,614 [J pool 0/3]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 18:59:15,046 [thread 108]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-12-25 18:59:15,046 [thread 108]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects] 
+2019-12-25 18:59:15,100 [thread 108]   INFO - ellij.project.impl.ProjectImpl - 166 project components initialized in 132 ms 
+2019-12-25 18:59:15,199 [thread 108]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 97 ms 
+2019-12-25 18:59:15,214 [e-1483-b03]   INFO - artup.AndroidStudioInitializer - Failed to disable 'org.intellij.plugins.intelliLang.inject.groovy.GrConcatenationInjector' 
+2019-12-25 18:59:15,365 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\hello' hello' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@78cb98c5) 
+2019-12-25 18:59:15,614 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,615 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,615 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,615 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,619 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,620 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,620 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,621 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,652 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,653 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,653 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,653 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,655 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,662 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,663 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,664 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-25 18:59:15,794 [thread 109]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 12ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 18:59:15,828 [thread 109]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 18:59:15,881 [thread 108]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 113 millis 
+2019-12-25 18:59:15,950 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 108 ms spent to cache options in project 
+2019-12-25 18:59:15,950 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-12-25 18:59:15,950 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - Activity run in 108ms on UI thread 
+2019-12-25 18:59:16,002 [thread 108]   INFO - tartup.impl.StartupManagerImpl - ExternalSystemStartupActivity run in 236ms under project opening modal progress 
+2019-12-25 18:59:16,090 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 137 ms spent on EDT to cache options in project 
+2019-12-25 18:59:16,116 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 18:59:16,221 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'hello'. 
+2019-12-25 18:59:16,224 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 18:59:16,225 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\hello' hello 
+2019-12-25 18:59:16,572 [thread 106]   INFO - e.project.sync.GradleSyncState - Started setup of project 'hello'. 
+2019-12-25 18:59:16,630 [thread 108]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 561ms under project opening modal progress 
+2019-12-25 18:59:16,630 [thread 108]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 901ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 18:59:16,759 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 18:59:17,074 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/hello/.idea case-sensitivity: expected=false actual=false 
+2019-12-25 18:59:17,087 [thread 113]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 18:59:17,123 [thread 113]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 18:59:17,124 [thread 113]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 18:59:17,131 [thread 113]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 18:59:17,148 [thread 113]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 18:59:17,152 [e-1483-b03]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 2191 ms 
+2019-12-25 18:59:17,183 [thread 108]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects] 
+2019-12-25 18:59:17,302 [thread 113]   INFO - ild.invoker.GradleBuildInvoker - About to execute Gradle tasks: [:app:generateDebugSources] 
+2019-12-25 18:59:17,922 [thread 116]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 18:59:17,954 [thread 116]   INFO - ild.invoker.GradleBuildInvoker - Build command line options: [-Pandroid.injected.invoked.from.ide=true, -Pandroid.injected.generateSourcesOnly=true] 
+2019-12-25 18:59:17,964 [thread 113]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 1 s 743 ms (from cached state) 
+2019-12-25 18:59:18,025 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 18:59:18,025 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\hello' hello 
+2019-12-25 18:59:18,034 [thread 116]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.generateSourcesOnly=true 
+2019-12-25 18:59:18,054 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 18:59:18,089 [thread 114]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.008s 
+2019-12-25 18:59:18,174 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 9 ms 
+2019-12-25 18:59:18,175 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-12-25 18:59:18,222 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 48 ms 
+2019-12-25 18:59:18,232 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 0 ms 
+2019-12-25 18:59:18,337 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 105 ms 
+2019-12-25 18:59:18,362 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 25 ms 
+2019-12-25 18:59:18,362 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-12-25 18:59:18,362 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-12-25 18:59:18,373 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-12-25 18:59:18,415 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 53 ms 
+2019-12-25 18:59:18,418 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-12-25 18:59:18,422 [thread 105]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 5 ms 
+2019-12-25 18:59:18,469 [thread 105]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 38ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 18:59:18,522 [thread 105]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 53ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 18:59:22,180 [J pool 1/3]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 18:59:22,947 [J pool 1/3]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 18:59:23,432 [e-1483-b03]   INFO - ild.invoker.GradleBuildInvoker - Gradle build finished in 5 s 501 ms 
+2019-12-25 18:59:24,124 [thread 104]   INFO - WindowsPerformanceHintsChecker - Windows Defender status: NONE_EXCLUDED; projectDirExcluded? false 
+2019-12-25 18:59:32,413 [thread 110]   INFO - WhatsNewAssistantBundleCreator - Remote WNA config file not found 
+java.io.FileNotFoundException: https://developer.android.com/studio/releases/assistant/3.5.3.xml
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.downloadConfig(WhatsNewAssistantBundleCreator.java:221)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.updateConfig(WhatsNewAssistantBundleCreator.java:209)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.isNewConfigVersion(WhatsNewAssistantBundleCreator.java:133)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantCheckVersionTask.run(WhatsNewAssistantCheckVersionTask.kt:34)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:731)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:586)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:532)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:86)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:403)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-25 19:16:43,085 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-12-25 19:16:43,090 [e-1483-b03]   WARN - ConfigurableExtensionPointUtil - use other group instead of unexpected one: project.propCompiler 
+2019-12-25 19:16:45,670 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-25 19:16:48,995 [e-1483-b03]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 191 ms 
+2019-12-25 19:23:12,552 [e-1483-b03]   WARN - rendering.ConfigurationMatcher - 'default' is not a best match for any device/locale combination for jar://C:/Program Files/Android/Android Studio/plugins/android/lib/layoutlib/data/framework_res.jar!/res/drawable/btn_default_material.xml.
+Displaying it with
+  , , , Left To Right, sw412dp, w412dp, h732dp, Normal Screen, Short screen aspect ratio, Not Round screen, , , Portrait Orientation, Normal, Day time, 420 DPI Density, Finger-based touchscreen, Soft keyboard, No keyboard, Hidden navigation, No navigation, Screen resolution 1920x1080, API Level 29
+which is compatible, but will actually be displayed with another more specific version of the layout. 
+2019-12-25 19:23:12,704 [e-1483-b03]   WARN - idea.rendering.GutterIconCache - Could not read/render icon image C:\Program Files\Android\Android Studio\plugins\android\lib\layoutlib\data\framework_res.jar!\res\drawable\btn_default_material.xml 
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Rendering failed
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at com.android.tools.idea.rendering.GutterIconFactory.createXmlIcon(GutterIconFactory.java:127)
+	at com.android.tools.idea.rendering.GutterIconFactory.createIcon(GutterIconFactory.java:74)
+	at com.android.tools.idea.rendering.GutterIconCache.getIcon(GutterIconCache.java:82)
+	at com.android.tools.idea.res.ResourceHelper.resolveAsDrawable(ResourceHelper.kt:447)
+	at com.android.tools.idea.res.ResourceHelper.resolveAsIcon(ResourceHelper.kt:429)
+	at com.android.tools.idea.uibuilder.property2.NelePropertyItem$ColorActionIconButton.resolveValueAsIcon(NelePropertyItem.kt:527)
+	at com.android.tools.idea.uibuilder.property2.NelePropertyItem$ColorActionIconButton.getActionIcon(NelePropertyItem.kt:491)
+	at com.android.tools.property.panel.impl.model.ColorFieldPropertyEditorModel.getLeftButtonIcon(ColorFieldPropertyEditorModel.kt:32)
+	at com.android.tools.property.panel.impl.ui.PropertyTextFieldWithLeftButton.setFromModel(PropertyTextFieldWithLeftButton.kt:73)
+	at com.android.tools.property.panel.impl.ui.PropertyTextFieldWithLeftButton.<init>(PropertyTextFieldWithLeftButton.kt:56)
+	at com.android.tools.property.panel.impl.ui.PropertyTextFieldWithLeftButton.<init>(PropertyTextFieldWithLeftButton.kt:37)
+	at com.android.tools.property.panel.impl.support.EditorProviderImpl.createEditor(EditorProviderImpl.kt:55)
+	at com.android.tools.property.panel.api.EditorProvider$DefaultImpls.createEditor$default(EditorProvider.kt:37)
+	at com.android.tools.idea.uibuilder.property2.inspector.ViewInspectorBuilder.attachToInspector(ViewInspectorBuilder.kt:79)
+	at com.android.tools.idea.uibuilder.property2.inspector.BasicAttributesInspectorBuilder.attachToInspector(BasicAttributesInspectorBuilder.kt:46)
+	at com.android.tools.property.panel.api.PropertiesViewTab.attachToInspector(PropertiesView.kt:90)
+	at com.android.tools.property.panel.api.PropertiesPanel.populateInspector(PropertiesPanel.kt:116)
+	at com.android.tools.property.panel.api.PropertiesPanel.propertiesGenerated(PropertiesPanel.kt:75)
+	at com.android.tools.idea.uibuilder.property2.NelePropertiesModel.firePropertiesGenerated(NelePropertiesModel.kt:316)
+	at com.android.tools.idea.uibuilder.property2.NelePropertiesModel$handleUpdate$1.run(NelePropertiesModel.kt:298)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:706)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.lang.RuntimeException: Rendering failed
+	at com.android.tools.idea.rendering.RenderTask.lambda$renderDrawable$11(RenderTask.java:893)
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952)
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1595)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-25 19:25:41,662 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\hello' helloChangeListManager took 13 ms 
+2019-12-25 19:25:41,676 [thread 224]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 125 ms 
+2019-12-25 19:37:38,261 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 49 ms 
+2019-12-25 19:37:38,374 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1KotlinCommonCompilerArguments took 24 ms 
+2019-12-25 19:37:38,423 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 243 ms 
+2019-12-25 19:50:40,007 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@54ca4d83 
+2019-12-25 19:50:40,007 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@37301213 
+2019-12-25 19:50:40,007 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@530ec9fc 
+2019-12-25 19:50:40,007 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@3db0f7ca 
+2019-12-25 19:50:40,007 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@6730141e 
+2019-12-25 19:50:40,219 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving appAndroidFirstRunPersistentData took 13 ms 
+2019-12-25 19:50:40,266 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 118 ms 
+2019-12-25 19:50:45,339 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\test1' test1Kotlin2JvmCompilerArguments took 12 ms 
+2019-12-25 19:50:45,396 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@76094600 
+2019-12-25 19:50:45,396 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@6aa35865 
+2019-12-25 19:50:45,396 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@2f4eac35 
+2019-12-25 19:50:45,628 [e-1483-b03]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2019-12-25 19:50:45,741 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 24 ms 
+2019-12-25 19:51:21,468 [e-1483-b03]   INFO - ellij.project.impl.ProjectImpl - 166 project components initialized in 42 ms 
+2019-12-25 19:51:21,469 [e-1483-b03]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-12-25 19:51:21,473 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 19:51:21,473 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 19:51:21,474 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@72168169) 
+2019-12-25 19:51:21,474 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: TEMPLATE_RENDERING_STARTED 
+2019-12-25 19:51:21,474 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 19:51:21,477 [e-1483-b03]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 19:51:21,651 [e-1483-b03]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-12-25 19:51:21,651 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/build.gradle 
+2019-12-25 19:51:21,681 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/settings.gradle 
+2019-12-25 19:51:21,695 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/gradle.properties 
+2019-12-25 19:51:21,734 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/local.properties 
+2019-12-25 19:51:21,784 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/settings.gradle 
+2019-12-25 19:51:21,803 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/app/build.gradle 
+2019-12-25 19:51:22,048 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 19:51:22,049 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 19:51:22,049 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 19:51:22,051 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/app/build.gradle 
+2019-12-25 19:51:22,149 [e-1483-b03]   WARN - templates.RepositoryUrlManager - RepositoryUrlManager#getLibraryRevision called from the UI thread. Using local cache to avoid network requests 
+2019-12-25 19:51:22,152 [cessToken]]   WARN - BasedStripTrailingSpacesFilter - No current project is given, trailing spaces will be stripped later (postponed). File: C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/app/build.gradle 
+2019-12-25 19:51:22,161 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: TEMPLATE_RENDERING_FINISHED 
+2019-12-25 19:51:22,161 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 19:51:22,210 [e-1483-b03]   INFO - artup.AndroidStudioInitializer - Failed to disable 'org.intellij.plugins.intelliLang.inject.groovy.GrConcatenationInjector' 
+2019-12-25 19:51:22,629 [thread 257]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 2 millis 
+2019-12-25 19:51:22,646 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:22,865 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:22,988 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 19:51:22,991 [e-1483-b03]   INFO - tartup.impl.StartupManagerImpl - C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects/SampleConstrainLayout/.idea case-sensitivity: expected=false actual=false 
+2019-12-25 19:51:22,993 [thread 258]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-12-25 19:51:23,044 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'SampleConstrainLayout'. 
+2019-12-25 19:51:23,046 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 19:51:23,046 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 19:51:23,143 [thread 260]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 19:51:23,144 [e-1483-b03]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 1737 ms 
+2019-12-25 19:51:23,148 [thread 260]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-12-25 19:51:23,153 [thread 260]   INFO - oject.common.GradleInitScripts - init script file sync.ng.kapt contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kapt3-idea.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kotlin-gradle-tooling.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar'])\n  }\n}\nallprojects {\n  apply plugin: KaptModelBuilderPlugin\n}\nclass KaptModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService builder;\n  public KaptModelBuilder() {\n    builder = new org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass KaptModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject KaptModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new KaptModelBuilder())\n  }\n}" 
+2019-12-25 19:51:23,165 [thread 260]   INFO - oject.common.GradleInitScripts - init script file sync.ng.build.script.classpath contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-impl.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-api-impldep-4.10.3.jar'])\n  }\n}\nallprojects {\n  apply plugin: BuildScriptClasspathModelBuilderPlugin\n}\nclass BuildScriptClasspathModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl builder;\n  public BuildScriptClasspathModelBuilder() {\n    builder = new org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass BuildScriptClasspathModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject BuildScriptClasspathModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new BuildScriptClasspathModelBuilder())\n  }\n}" 
+2019-12-25 19:51:23,181 [thread 260]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.java.lib2.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.kapt2.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.build.script.classpath2.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.5.3.0 -Pandroid.injected.build.model.disable.src.download=false 
+2019-12-25 19:51:24,223 [Alarm Pool]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [VcsRootError{UNREGISTERED_ROOT - C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects}] 
+2019-12-25 19:51:24,240 [Alarm Pool]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects] 
+2019-12-25 19:51:25,170 [thread 259]   INFO - WhatsNewAssistantBundleCreator - Remote WNA config file not found 
+java.io.FileNotFoundException: https://developer.android.com/studio/releases/assistant/3.5.3.xml
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.downloadConfig(WhatsNewAssistantBundleCreator.java:221)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.updateConfig(WhatsNewAssistantBundleCreator.java:209)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.isNewConfigVersion(WhatsNewAssistantBundleCreator.java:133)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantCheckVersionTask.run(WhatsNewAssistantCheckVersionTask.kt:34)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:731)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:586)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:532)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:86)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:403)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-25 19:51:27,428 [thread 256]   INFO - WindowsPerformanceHintsChecker - Windows Defender status: NONE_EXCLUDED; projectDirExcluded? false 
+2019-12-25 19:51:27,750 [thread 256]   INFO - e.project.sync.GradleSyncState - Started setup of project 'SampleConstrainLayout'. 
+2019-12-25 19:51:27,751 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 19:51:27,971 [thread 256]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 29 Platform' (C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk) to module 'app' 
+2019-12-25 19:51:28,448 [thread 265]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 19:51:28,460 [thread 265]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 19:51:28,460 [thread 265]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 19:51:28,461 [thread 265]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 19:51:28,462 [thread 265]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 19:51:29,198 [thread 265]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 6 s 154 ms 
+2019-12-25 19:51:29,229 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 19:51:29,229 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 19:51:29,387 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 19:51:29,406 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 6541ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:29,406 [thread 257]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 33 files to update 
+2019-12-25 19:51:29,406 [thread 257]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-12-25 19:51:29,437 [thread 263]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.002s 
+2019-12-25 19:51:29,612 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 27 ms 
+2019-12-25 19:51:29,626 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Building symbols in FAST mode, 0 source files from total 0 project files 
+2019-12-25 19:51:29,662 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 37 ms 
+2019-12-25 19:51:29,663 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Loading Header Maps finished in 1 ms 
+2019-12-25 19:51:29,696 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Loading Module Maps finished in 33 ms 
+2019-12-25 19:51:29,700 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Saving Module Maps finished in 3 ms 
+2019-12-25 19:51:29,701 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Loaded 0 tables for 0 files (0 project files) 
+2019-12-25 19:51:29,701 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 source files 
+2019-12-25 19:51:29,704 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Building symbols for 0 unused headers 
+2019-12-25 19:51:29,715 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 14 ms 
+2019-12-25 19:51:29,716 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Saving modified symbols for 0 files (0 tables of total 0) 
+2019-12-25 19:51:29,719 [thread 257]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 3 ms 
+2019-12-25 19:51:29,731 [thread 257]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-12-25 19:51:29,741 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:30,042 [thread 260]   INFO - e.project.sync.GradleSyncState - Finished source generation of project 'SampleConstrainLayout'. 
+2019-12-25 19:51:30,143 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 402ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:30,298 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 155ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:30,299 [thread 257]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 32 files to update 
+2019-12-25 19:51:30,445 [thread 257]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 146ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:30,588 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 32 ms spent to cache options in project 
+2019-12-25 19:51:30,749 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 150 ms spent on EDT to cache options in project 
+2019-12-25 19:51:33,860 [e-1483-b03]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 19:51:34,202 [thread 271]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 7ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:34,772 [thread 271]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 570ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:34,772 [thread 271]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-12-25 19:51:34,836 [thread 271]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 64ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 19:51:49,138 [thread 312]   INFO - ools.idea.psi.TagToClassMapper - Building initial class map for android.view.View 
+2019-12-25 20:01:03,759 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:01:03,760 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:01:03,760 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:01:34,380 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:01:34,380 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:01:34,380 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:02:28,869 [thread 419]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:04:23,694 [thread 424]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false rm --ignore-unmatch --cached -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:04:26,606 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:04:26,606 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:04:26,606 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:04:45,574 [thread 426]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false rm --ignore-unmatch --cached -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:04:51,042 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:04:51,042 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:04:51,042 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:07:04,882 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:07:04,882 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:07:04,882 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:07:55,160 [thread 434]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:08:07,795 [thread 428]   INFO - icReportIdePerformanceListener - uiFreezeStarted 
+2019-12-25 20:08:50,982 [e-1483-b03]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 20:08:50,984 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 20:08:51,276 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'SampleConstrainLayout'. 
+2019-12-25 20:08:51,277 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 20:08:51,277 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 20:08:51,383 [thread 435]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 20:08:51,387 [thread 435]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-12-25 20:08:51,395 [thread 435]   INFO - oject.common.GradleInitScripts - init script file sync.ng.kapt contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kapt3-idea.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kotlin-gradle-tooling.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar'])\n  }\n}\nallprojects {\n  apply plugin: KaptModelBuilderPlugin\n}\nclass KaptModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService builder;\n  public KaptModelBuilder() {\n    builder = new org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass KaptModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject KaptModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new KaptModelBuilder())\n  }\n}" 
+2019-12-25 20:08:51,406 [thread 435]   INFO - oject.common.GradleInitScripts - init script file sync.ng.build.script.classpath contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-impl.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-api-impldep-4.10.3.jar'])\n  }\n}\nallprojects {\n  apply plugin: BuildScriptClasspathModelBuilderPlugin\n}\nclass BuildScriptClasspathModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl builder;\n  public BuildScriptClasspathModelBuilder() {\n    builder = new org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass BuildScriptClasspathModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject BuildScriptClasspathModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new BuildScriptClasspathModelBuilder())\n  }\n}" 
+2019-12-25 20:08:51,429 [thread 435]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.java.lib4.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.kapt5.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.build.script.classpath10.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.5.3.0 -Pandroid.injected.build.model.disable.src.download=false 
+2019-12-25 20:08:51,954 [thread 428]   INFO - icReportIdePerformanceListener - uiFreezeFinished: duration = 50 seconds 
+2019-12-25 20:08:52,111 [thread 428]   INFO - icReportIdePerformanceListener - Freeze report saved: C:\Users\Administrator.DESKTOP-72GMO0L\.AndroidStudio3.5\system\log\threadDumps-freeze-20191225-200801-AI-191.8026.42.35.6010548-50sec\diagnosticReport-hotPathStackTrace.txt 
+2019-12-25 20:08:52,114 [thread 428]   INFO - icReportIdePerformanceListener - Freeze report saved: C:\Users\Administrator.DESKTOP-72GMO0L\.AndroidStudio3.5\system\log\threadDumps-freeze-20191225-200801-AI-191.8026.42.35.6010548-50sec\diagnosticReport-profileDiagnostics.txt 
+2019-12-25 20:08:52,116 [thread 428]   INFO - icReportIdePerformanceListener - Freeze report saved: C:\Users\Administrator.DESKTOP-72GMO0L\.AndroidStudio3.5\system\log\threadDumps-freeze-20191225-200801-AI-191.8026.42.35.6010548-50sec\diagnosticReport-memoryUseDiagnostics.txt 
+2019-12-25 20:08:52,119 [thread 428]   INFO - icReportIdePerformanceListener - Freeze report saved: C:\Users\Administrator.DESKTOP-72GMO0L\.AndroidStudio3.5\system\log\threadDumps-freeze-20191225-200801-AI-191.8026.42.35.6010548-50sec\diagnosticReport-actionsDiagnostics.txt 
+2019-12-25 20:08:53,961 [thread 436]   INFO - e.project.sync.GradleSyncState - Started setup of project 'SampleConstrainLayout'. 
+2019-12-25 20:08:53,965 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 20:08:54,077 [thread 436]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 29 Platform' (C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk) to module 'app' 
+2019-12-25 20:08:54,284 [thread 436]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 20:08:54,288 [thread 436]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 20:08:54,288 [thread 436]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 20:08:54,290 [thread 436]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 20:08:54,291 [thread 436]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 20:08:54,407 [thread 436]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 3 s 131 ms 
+2019-12-25 20:08:54,428 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 20:08:54,428 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 20:08:54,500 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 20:08:54,525 [thread 434]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.003s 
+2019-12-25 20:08:54,665 [thread 438]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 6ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 20:08:54,699 [thread 438]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 20:08:54,699 [thread 438]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 11 files to update 
+2019-12-25 20:08:54,772 [thread 438]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 73ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 20:08:55,454 [thread 435]   INFO - e.project.sync.GradleSyncState - Finished source generation of project 'SampleConstrainLayout'. 
+2019-12-25 20:08:59,060 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_TASK_CREATED 
+2019-12-25 20:08:59,143 [e-1483-b03]   INFO - e.project.sync.GradleSyncState - Started single-variant sync with Gradle for project 'SampleConstrainLayout'. 
+2019-12-25 20:08:59,143 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SYNC_STARTED 
+2019-12-25 20:08:59,144 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Starting batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 20:08:59,174 [thread 434]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2019-12-25 20:08:59,180 [thread 434]   INFO - oject.common.GradleInitScripts - init script file sync.java.lib contents "initscript {\n    dependencies {\n        classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\android\\\\lib\\\\sdk-tools.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar'])\n    }\n}\nallprojects {\n    apply plugin: com.android.java.model.builder.JavaLibraryPlugin\n}\n" 
+2019-12-25 20:08:59,184 [thread 434]   INFO - oject.common.GradleInitScripts - init script file sync.ng.kapt contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kapt3-idea.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\lib\\\\kotlin-stdlib-1.3.50.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\Kotlin\\\\lib\\\\kotlin-gradle-tooling.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar'])\n  }\n}\nallprojects {\n  apply plugin: KaptModelBuilderPlugin\n}\nclass KaptModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService builder;\n  public KaptModelBuilder() {\n    builder = new org.jetbrains.kotlin.kapt.idea.KaptModelBuilderService();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass KaptModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject KaptModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new KaptModelBuilder())\n  }\n}" 
+2019-12-25 20:08:59,187 [thread 434]   INFO - oject.common.GradleInitScripts - init script file sync.ng.build.script.classpath contents "import javax.inject.Inject\nimport org.gradle.tooling.provider.model.ToolingModelBuilderRegistry\nimport org.gradle.tooling.provider.model.ToolingModelBuilder\ninitscript {\n  dependencies {\n      classpath files(['C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-impl.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-tooling-extension-api.jar', 'C:\\\\Program Files\\\\Android\\\\Android Studio\\\\plugins\\\\gradle\\\\lib\\\\gradle-api-impldep-4.10.3.jar'])\n  }\n}\nallprojects {\n  apply plugin: BuildScriptClasspathModelBuilderPlugin\n}\nclass BuildScriptClasspathModelBuilder implements ToolingModelBuilder {\n  public org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl builder;\n  public BuildScriptClasspathModelBuilder() {\n    builder = new org.jetbrains.plugins.gradle.tooling.builder.ModelBuildScriptClasspathBuilderImpl();\n  }\n  public boolean canBuild(String modelName) {\n    return builder.canBuild(modelName);\n  }\n  public Object buildAll(String modelName, Project project) {\n    return builder.buildAll(modelName, project);\n  }\n}\nclass BuildScriptClasspathModelBuilderPlugin implements Plugin<Project>{ \n  ToolingModelBuilderRegistry registry\n  @Inject BuildScriptClasspathModelBuilderPlugin(ToolingModelBuilderRegistry registry) {\n    this.registry = registry  }\n\n\n  void apply(Project project) {\n    registry.register(new BuildScriptClasspathModelBuilder())\n  }\n}" 
+2019-12-25 20:08:59,196 [thread 434]   INFO - xecution.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.java.lib11.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.kapt11.gradle --init-script C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Temp\sync.ng.build.script.classpath8.gradle -Djava.awt.headless=true -Pandroid.injected.build.model.only=true -Pandroid.injected.build.model.only.advanced=true -Pandroid.injected.invoked.from.ide=true -Pandroid.injected.build.model.only.versioned=3 -Pandroid.injected.studio.version=3.5.3.0 -Pandroid.injected.build.model.disable.src.download=false 
+2019-12-25 20:09:01,669 [thread 438]   INFO - e.project.sync.GradleSyncState - Started setup of project 'SampleConstrainLayout'. 
+2019-12-25 20:09:01,671 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender activation event: SETUP_STARTED 
+2019-12-25 20:09:01,719 [thread 438]   INFO - ule.android.SdkModuleSetupStep - Set Android SDK 'Android API 29 Platform' (C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk) to module 'app' 
+2019-12-25 20:09:01,934 [thread 438]   INFO - ty.VersionCompatibilityChecker - Failed to find version reader for component 'android-gradle-experimental-plugin' 
+2019-12-25 20:09:01,935 [thread 438]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 20:09:01,935 [thread 438]   INFO - testKnownPluginVersionProvider - 'gradle' plugin missing from the offline Maven repo, will use default 3.5.3 
+2019-12-25 20:09:01,937 [thread 438]   INFO - .MemorySettingsPostSyncChecker - 64bits? : true, current: 1280, available RAM: 8101 
+2019-12-25 20:09:01,941 [thread 438]   INFO - s.MemorySettingsRecommendation - recommendation based on machine: 1280, on project: 1280 
+2019-12-25 20:09:01,987 [thread 438]   INFO - e.project.sync.GradleSyncState - Gradle sync finished in 2 s 844 ms 
+2019-12-25 20:09:02,065 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Consuming IndexingSuspender deactivation event: SYNC_FINISHED 
+2019-12-25 20:09:02,066 [e-1483-b03]   INFO - a.gradle.util.BatchUpdatesUtil - Finishing batch update for project: Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout 
+2019-12-25 20:09:02,161 [cessToken]]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-12-25 20:09:02,172 [thread 440]   INFO - roid.tools.ndk.GradleWorkspace - Updating model took 0.001s 
+2019-12-25 20:09:02,241 [thread 437]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 20:09:02,276 [thread 437]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 35ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-25 20:09:02,478 [thread 434]   INFO - e.project.sync.GradleSyncState - Finished source generation of project 'SampleConstrainLayout'. 
+2019-12-25 20:09:24,402 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,403 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,403 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,403 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,404 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,405 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,405 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,405 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,405 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,489 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,489 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,489 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,489 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,611 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,611 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,611 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,611 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,740 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,740 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,740 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:09:24,740 [e-1483-b03]   WARN - mmand.NlWriteCommandActionUtil - Unable to get attribute from android.support.constraint.Guideline because XmlTag is invalidated  
+2019-12-25 20:10:57,727 [thread 478]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false rm --ignore-unmatch --cached -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:11:01,535 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:11:01,535 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:11:01,535 [e-1483-b03]   INFO - review.DeviceConfiguratorPanel - Missing editor for qualifier  
+2019-12-25 20:11:55,170 [thread 438]   INFO -  #git4idea.commands.GitHandler - [..\..\AndroidStudioProjects] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- SampleConstrainLayout/app/src/main/res/layout/activity_menu.xml 
+2019-12-25 20:13:53,723 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 103 ms 
+2019-12-25 20:24:45,403 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 126 ms 
+2019-12-25 20:26:53,603 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 59 ms 
+2019-12-25 20:29:39,915 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 28 ms 
+2019-12-25 20:31:53,097 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 35 ms 
+2019-12-25 20:33:38,366 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayoutInspectionProjectProfileManager took 19 ms 
+2019-12-25 20:33:38,370 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 51 ms 
+2019-12-25 20:46:50,496 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayoutRunManager took 73 ms, VcsManagerConfiguration took 31 ms, XDebuggerManager took 16 ms 
+2019-12-25 20:46:50,548 [Alarm Pool]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 207 ms 
+2019-12-25 21:02:05,331 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving appRunnerLayoutSettings took 15 ms 
+2019-12-25 21:02:05,347 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayoutProjectCodeStyleConfiguration took 16 ms 
+2019-12-25 21:02:05,488 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@2b7d766f 
+2019-12-25 21:02:05,488 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@17247103 
+2019-12-25 21:02:05,488 [e-1483-b03]   WARN - .impl.LineStatusTrackerManager - Tracker for is being held on dispose by com.intellij.openapi.editor.impl.EditorImpl@180901a7 
+2019-12-25 21:02:05,753 [e-1483-b03]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-12-25 21:02:05,753 [e-1483-b03]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-12-25 21:02:05,753 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-12-25 21:02:05,800 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-12-25 21:02:05,831 [e-1483-b03]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-25 21:02:05,847 [e-1483-b03]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 21 auto-detected files
+Elapsed time on auto-detect: 543 ms 
+2019-12-25 21:02:05,972 [fier64.exe]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-12-25 21:02:05,972 [e-1483-b03]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-12-25 21:02:06,003 [e-1483-b03]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-12-25 21:02:06,034 [wn tracker]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-12-25 21:02:06,034 [wn tracker]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-26 00:35:55,248 [ain Thread]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-12-26 00:35:55,334 [e-1483-b03]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-191.8026.42.35.6010548, 15 Nov 2019 16:02) 
+2019-12-26 00:35:55,334 [e-1483-b03]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-12-26 00:35:55,334 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b03 (JetBrains s.r.o) 
+2019-12-26 00:35:55,334 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b03 (OpenJDK 64-Bit Server VM) 
+2019-12-26 00:35:55,335 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djna.nosys=true -Djna.boot.library.path= -da -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio3.5 -XX:ErrorFile=C:\Users\Administrator.DESKTOP-72GMO0L\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Administrator.DESKTOP-72GMO0L\java_error_in_studio.hprof 
+2019-12-26 00:35:55,336 [e-1483-b03]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-12-26 00:35:55,336 [e-1483-b03]   INFO -        #com.intellij.idea.Main - charsets: JNU=MS949 file=MS949 
+2019-12-26 00:35:55,385 [e-1483-b03]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 48 ms 
+2019-12-26 00:35:55,391 [e-1483-b03]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-12-26 00:35:56,214 [e-1483-b03]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-12-26 00:35:56,345 [entQueue-0]   INFO - .intellij.idea.IdeaApplication - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4e2332ce[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@30372b27 
+2019-12-26 00:35:56,437 [entQueue-0]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (JRE-managed HiDPI) 
+2019-12-26 00:35:57,593 [ger Loader]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2019-12-26 00:35:57,595 [ger Loader]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-detection-groovy.xml 
+2019-12-26 00:35:58,064 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 1051 ms 
+2019-12-26 00:35:58,262 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - 38 plugins initialized in 1250 ms 
+2019-12-26 00:35:58,263 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.3.5.3), App Links Assistant (0.1), Copyright (191.8026.42.35.6010548), Coverage (191.8026.42.35.6010548), EditorConfig (191.8026.42.35.6010548), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git Integration (191.8026.42.35.6010548), GitHub (191.8026.42.35.6010548), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (191.8026.42.35.6010548), Groovy (191.8026.42.35.6010548), I18n for Java (191.8026.42.35.6010548), IDEA CORE (191.8026.42.35.6010548), IntelliJ Configuration Script (191.8026.42.35.6010548), IntelliLang (191.8026.42.35.6010548), JUnit (191.8026.42.35.6010548), Java Bytecode Decompiler (191.8026.42.35.6010548), Java Stream Debugger (191.8026.42.35.6010548), Kotlin (1.3.50-release-Studio3.5-1), Mercurial Integration (191.8026.42.35.6010548), Properties Support (191.8026.42.35.6010548), Settings Repository (191.8026.42.35.6010548), Smali Support (191.8026.42.35.6010548), Subversion (191.8026.42.35.6010548), Task Management (191.8026.42.35.6010548), Terminal (191.8026.42.35.6010548), Test Recorder (1.0), TestNG-J (191.8026.42.35.6010548), YAML (191.8026.42.35.6010548) 
+2019-12-26 00:36:00,543 [entQueue-0]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2019-12-26 00:36:00,736 [le Watcher]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2019-12-26 00:36:00,837 [le Watcher]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-12-26 00:36:03,024 [e-1483-b03]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-12-26 00:36:03,042 [e-1483-b03]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-12-26 00:36:03,077 [d thread 3]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-12-26 00:36:03,172 [e-1483-b03]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-12-26 00:36:03,406 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:129, number of extensions:43 
+2019-12-26 00:36:03,424 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:17 
+2019-12-26 00:36:03,475 [e-1483-b03]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:34, number of extensions:50 
+2019-12-26 00:36:03,476 [e-1483-b03]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-12-26 00:36:04,209 [e-1483-b03]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 533 ms 
+2019-12-26 00:36:04,825 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-26 00:36:04,826 [e-1483-b03]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.0; restored: fontSize=15, fontScale=1.0 
+2019-12-26 00:36:05,764 [oader Pool]   INFO - j.ide.ui.OptionsTopHitProvider - 2997 ms spent to cache options in application 
+2019-12-26 00:36:05,764 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2998 ms 
+2019-12-26 00:36:06,717 [cture Pool]   INFO - pl$FileIndexDataInitialization - Initialization done:3292 
+2019-12-26 00:36:06,731 [e-1483-b03]   INFO - plication.impl.ApplicationImpl - 88 application components initialized in 9726ms 
+2019-12-26 00:36:06,756 [e-1483-b03]   INFO - .intellij.idea.IdeaApplication - App initialization took 14173 ms 
+2019-12-26 00:36:07,255 [e-1483-b03]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-12-26 00:36:07,876 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2019-12-26 00:36:07,876 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2019-12-26 00:36:07,876 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2019-12-26 00:36:07,877 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2019-12-26 00:36:07,878 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2019-12-26 00:36:07,878 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2019-12-26 00:36:07,878 [e-1483-b03]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2019-12-26 00:36:08,132 [cture Pool]   INFO - exImpl$StubIndexInitialization - Initialization done:1414 
+2019-12-26 00:36:09,237 [d thread 4]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-12-26 00:36:09,240 [d thread 4]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [C:/Users/Administrator.DESKTOP-72GMO0L/AndroidStudioProjects] 
+2019-12-26 00:36:10,641 [d thread 4]   INFO - ellij.project.impl.ProjectImpl - 166 project components initialized in 2714 ms 
+2019-12-26 00:36:10,645 [d thread 5]   INFO - dea.updater.SdkComponentSource - File C:\Users\Administrator.DESKTOP-72GMO0L\.android\repositories.cfg could not be loaded. 
+2019-12-26 00:36:10,673 [d thread 5]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2019-12-26 00:36:10,898 [3-thread-2]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2019-12-26 00:36:10,898 [3-thread-1]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-12-26 00:36:10,911 [-thread-10]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-12-26 00:36:10,911 [3-thread-6]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-12-26 00:36:10,914 [3-thread-9]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-12-26 00:36:10,914 [3-thread-4]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-12-26 00:36:10,917 [3-thread-7]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-12-26 00:36:10,917 [3-thread-8]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-12-26 00:36:10,919 [-thread-11]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-12-26 00:36:10,929 [3-thread-3]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-12-26 00:36:10,951 [3-thread-5]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-12-26 00:36:11,246 [d thread 4]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 596 ms 
+2019-12-26 00:36:11,706 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 5940 ms 
+2019-12-26 00:36:11,909 [oader Pool]   INFO - dk.ClangTidyInspectionProvider - Clang-tidy inspection is enabled.} 
+2019-12-26 00:36:12,128 [e-1483-b03]   INFO - artup.AndroidStudioInitializer - Failed to disable 'org.intellij.plugins.intelliLang.inject.groovy.GrConcatenationInjector' 
+2019-12-26 00:36:12,303 [d thread 4]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-12-26 00:36:13,601 [e-1483-b03]   INFO - idea.project.IndexingSuspender - Subscribing project 'Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayout' to indexing suspender events (com.android.tools.idea.project.IndexingSuspender@767a4923) 
+2019-12-26 00:36:16,445 [ thread 10]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 42ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-26 00:36:16,598 [d thread 8]   INFO - tartup.impl.StartupManagerImpl - EditorHistoryManagerStartUpActivity run in 171ms under project opening modal progress 
+2019-12-26 00:36:17,238 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 5525 ms 
+2019-12-26 00:36:17,479 [d thread 8]   INFO - ge.ExternalProjectsDataStorage - Loaded external projects data in 701 millis 
+2019-12-26 00:36:17,705 [d thread 8]   INFO - tartup.impl.StartupManagerImpl - ExternalSystemStartupActivity run in 1041ms under project opening modal progress 
+2019-12-26 00:36:17,863 [d thread 8]   INFO - tartup.impl.StartupManagerImpl - WhatsNewStartupActivity run in 136ms under project opening modal progress 
+2019-12-26 00:36:18,341 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 1101 ms 
+2019-12-26 00:36:18,353 [oader Pool]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 9 ms 
+2019-12-26 00:36:19,786 [d thread 6]   INFO - WhatsNewAssistantBundleCreator - Remote WNA config file not found 
+java.io.FileNotFoundException: https://developer.android.com/studio/releases/assistant/3.5.3.xml
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.downloadConfig(WhatsNewAssistantBundleCreator.java:221)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.updateConfig(WhatsNewAssistantBundleCreator.java:209)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantBundleCreator.isNewConfigVersion(WhatsNewAssistantBundleCreator.java:133)
+	at com.android.tools.idea.whatsnew.assistant.WhatsNewAssistantCheckVersionTask.run(WhatsNewAssistantCheckVersionTask.kt:34)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:731)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:164)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:586)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:532)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:86)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:151)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:403)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-26 00:36:20,171 [d thread 8]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 2263ms under project opening modal progress 
+2019-12-26 00:36:20,252 [d thread 8]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 3980ms; general responsiveness: ok; EDT responsiveness: 0/4 sluggish, 1/4 very slow 
+2019-12-26 00:36:20,725 [e-1483-b03]   INFO - j.ide.ui.OptionsTopHitProvider - 469 ms spent on EDT to cache options in application 
+2019-12-26 00:36:21,096 [d thread 5]   INFO - WindowsPerformanceHintsChecker - Windows Defender status: NONE_EXCLUDED; projectDirExcluded? false 
+2019-12-26 00:36:21,418 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,419 [d thread 1]   INFO - roid.tools.idea.adb.AdbService - Initializing adb using: C:\Users\Administrator.DESKTOP-72GMO0L\AppData\Local\Android\Sdk\platform-tools\adb.exe 
+2019-12-26 00:36:21,465 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,465 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,466 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,564 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,578 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,579 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,579 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,810 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,812 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,813 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:21,813 [e-1483-b03]   WARN - un.AndroidRunConfigurationBase - Can't get application ID: Android module missing 
+2019-12-26 00:36:22,413 [ thread 10]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 5966ms; general responsiveness: ok; EDT responsiveness: 1/6 sluggish, 2/6 very slow 
+2019-12-26 00:36:23,589 [e-1483-b03]   INFO - rationStore.ComponentStoreImpl - Saving Project 'C:\Users\Administrator.DESKTOP-72GMO0L\AndroidStudioProjects\SampleConstrainLayout' SampleConstrainLayoutXDebuggerManager took 15 ms, libraryTable took 12 ms 
+2019-12-26 00:36:24,150 [err reader]   WARN -            #com.android.ddmlib - * daemon not running; starting now at tcp:5037 
+2019-12-26 00:36:27,214 [err reader]   WARN -            #com.android.ddmlib - * daemon started successfully 
+2019-12-26 00:36:27,759 [e-1483-b03]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-12-26 00:36:27,759 [e-1483-b03]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-12-26 00:36:27,760 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-12-26 00:36:27,780 [e-1483-b03]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-12-26 00:36:27,802 [e-1483-b03]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-26 00:36:27,820 [e-1483-b03]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-12-26 00:36:27,847 [fier64.exe]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-12-26 00:36:31,093 [e-1483-b03]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-12-26 00:36:31,111 [e-1483-b03]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-12-26 00:36:31,116 [wn tracker]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-12-26 00:36:31,122 [wn tracker]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

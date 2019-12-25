@@ -61,7 +61,9 @@
           </root>
         </classPath>
         <javadocPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">

@@ -1,0 +1,6 @@
+Actions:
+Action when freeze detected: com.android.tools.idea.uibuilder.editor.NlActionManager$DirectViewActionWrapper (null)
+Action duration when freeze detected: 5191ms
+Action finished: com.android.tools.idea.uibuilder.editor.NlActionManager$DirectViewActionWrapper (null), duration: 48441ms
+Action when freeze ended: (no action)
+Action duration when freeze ended: 0ms

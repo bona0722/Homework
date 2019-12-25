@@ -2,20 +2,50 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/SampleConstrainLayout" />
+        <option value="$USER_HOME$/AndroidStudioProjects/test1" />
         <option value="$USER_HOME$/AndroidStudioProjects/hello" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/SampleConstrainLayout" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/AndroidStudioProjects/SampleConstrainLayout" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/SampleConstrainLayout">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1577288172295" />
+              <option name="buildTimestamp" value="1573801321010" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AndroidStudioProjects/hello">
           <value>
             <RecentProjectMetaInfo>
               <option name="build" value="AI-191.8026.42.35.6010548" />
               <option name="productionCode" value="AI" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1577194087857" />
-              <option name="buildTimestamp" value="1573801364278" />
+              <option name="projectOpenTimestamp" value="1577267955231" />
+              <option name="buildTimestamp" value="1573801359683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/test1">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1577271040046" />
+              <option name="buildTimestamp" value="1573801359683" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
