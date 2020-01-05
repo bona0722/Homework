@@ -1,0 +1,28 @@
+import java.util.*;
+class Solution {
+  public int[] solution(int[] arr, int divisor) {
+      int[] answer = {};
+      //ArrayList 이용
+      ArrayList <Integer> arr1 = new ArrayList <Integer>();
+      
+    for(int j = 0; j < arr.length ; j++){
+        if(arr[j] % divisor == 0) {
+            arr1.add(arr[j]);
+        }    
+    }
+    
+      if(arr1.isEmpty()){
+          arr1.add(-1);
+      }
+      
+     answer = new int[arr1.size()];
+      
+       for(int i = 0 ; i < arr1.size(); i++){
+                answer[i] = arr1.get(i);   
+       }
+    //정렬
+      Arrays.sort(answer);
+     
+    return answer;
+  }
+}
