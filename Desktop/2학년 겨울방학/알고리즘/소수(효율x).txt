@@ -1,0 +1,21 @@
+class Solution {
+  public int solution(int n) {
+      int answer = 1;
+      int count = 2;
+      int odd = 3, prime = 3;
+      while(prime <= n){
+            while(odd < prime) {
+                if(prime%odd == 0) {
+                    count++;
+                    if(count == 3) break;
+                }
+                odd += 2;
+            }
+            if(count == 2) answer++;
+            count = 2;
+            odd = 3;
+            prime += 2;
+      }
+      return answer;
+  }
+}
