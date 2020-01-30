@@ -1,0 +1,30 @@
+import java.util.*;
+class Solution {
+
+    public static int function(int[] answers, int[] supo, int num, int num_s, int count){
+        if(num_s = 0) num_s = supo.length;
+        if(num == 0){
+            return count;
+        }
+        else {
+            if(answers[num] == supo[num_s]) count++;
+            function(answers, supo, num - 1, num_s - 1, count);
+        }
+    }
+    public int[] solution(int[] answers) {
+        int[] answer = {};
+        int[] supo_1 = {1,2,3,4,5}, supo_2 = {2,1,2,3,2,4,2,5}, supo_3 = {3,3,1,1,2,2,4,4,5,5};
+        
+        int count1 = function(answers, supo_1, 10000, supo_1.length, 0);
+        int count2 = function(answers, supo_2, 10000, supo_2.length, 0);
+        int count3 = function(answers, supo_3, 10000, supo_3.length, 0);
+        
+        if(count1 > count2 && count1 > count3) {
+            
+        }
+        else if(count2 > count1 && count2 > count3) 
+        else if(count3 > count1 && count3 > count2)
+        else if(count1 > count2)
+        return answer;
+    }
+}
